@@ -1,0 +1,18 @@
+<html>
+<head>
+<title>home town</title>
+<style>
+h1{color:red;
+}
+</style>
+</head>
+<body>
+<h2 style="color:lavender;text-align:center:"> place must be visited</h2>
+<p style="color:red;">mesmerising memories</p>
+<h2><center><b><i><font color="maroon">KOLENCHERY</font></center></h2>
+<p>&#8692;ERNAKULAM</p>
+<p style="background_image:url("kol.jpeg");>
+<p><font color="red"><b><i><center>“Traveling – it leaves you speechless, then turns you into a storyteller.” </center></i></b></font></p>
+
+</body>
+</html>

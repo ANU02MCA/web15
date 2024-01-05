@@ -1,0 +1,103 @@
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+
+<center><title>Image and Text Hover</title>
+
+<style>
+
+#image-container {
+
+position: relative;
+
+width: 700px;
+
+height: 300px;
+
+background-color: #ccc;
+
+text-align: center;
+
+}
+
+
+
+#image-container img {
+
+width: 100%;
+
+height: auto; }
+
+#hidden-content {
+
+position: absolute;
+
+top: 0;
+
+left: 0;
+
+width: 100%;
+
+height: 100%;
+
+background-color: rgba(0, 0, 0, 0.5);
+
+color: white;
+
+text-align: center;
+
+display: none; }
+
+</style>
+
+
+
+</head>
+
+<body>
+
+<div id="image-container">
+
+<center>
+<img src="mo.jpg" alt="Image 1">
+
+<p id="image-text">Welcome To the Nature's Nest !!;</p>
+
+<div id="hidden-content">
+
+<img src="download (6).jpg" alt="Image 2">
+
+</div>
+
+</div>
+
+
+
+<script>
+
+const imageContainer = document.getElementById('image-container');
+
+const hiddenContent = document.getElementById('hidden-content');
+
+const imageText = document.getElementById('image-text');
+
+imageContainer.addEventListener('mouseover', () => {
+
+hiddenContent.style.display = 'block';
+
+imageText.textContent = 'Nature is Beautiful!!'; });
+
+imageContainer.addEventListener('mouseout', () => {
+
+hiddenContent.style.display = 'none';
+
+imageText.textContent = 'Save the Earth!!'; });
+
+</script>
+
+</body>
+
+</html>
+
